@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: lightgray;
+    margin-bottom: 10vh;
+}
+div#container {
+
+}
+div.post-block {
+    width: 50vw;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 15vh;
+    
+}
+img.post-image {
+    width: 100%;
+}
+div.post-footer {
+    display: flex;
+}
+span.post-meta,
+span.post_score {
+    display: block;
+    flex: 1;
+    font-size: 75%;
+}
+span.post_score {
+    text-align: right;
+}
